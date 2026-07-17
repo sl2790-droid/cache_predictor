@@ -34,7 +34,7 @@ void predict() {
         predictions[0] = addrs[0];
     } else {
         for (int i = 0; i < count; i++) {
-            predictions[i] = addrs[count - 1];
+            predictions[i] = addrs[i];
         }
     }
 }
